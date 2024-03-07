@@ -3,8 +3,82 @@
     <head>
         <meta charset="utf-8">
         <title>HoopersPlanet</title>
+        <style>
+            body{
+                margin: 0;
+                font-family: 'Lexend';
+            }
+            /* .container {
+                position: relative;
+                width: 100%;
+                height: auto; 
+            }
+            .background {
+                width: 100%;
+                height: auto;
+            } */
+            .basketball1{
+                width: 92px;
+                height: auto;
+                position: absolute;
+                left: 570px;
+                top: 450px;
+                /* top: calc(503/1080*100%); */
+                /* left: calc(763/1920*100%); */
+            }
+            .trajectory{
+                width: 535px;
+                height: auto;/*1321.06px*/
+                position: absolute;
+                left: 665px;
+                top: 495px;
+            }
+            .basketball2{
+                width: 92px;
+                height: auto;
+                position: absolute;
+                left: 1200px;
+                top: 1630px;
+                
+            }
+            /* .image-container {
+                position: relative;
+                display: inline-block;
+            } */
+         
+
+
+            .banner1{
+                color: #FFFFFF;
+                position: absolute;
+                font-size: 250%;
+                left: 60px;
+                top: 400px;
+            }
+            .text3{
+                color: #FFFFFF;
+                position: absolute;
+            }
+            .hr{
+                border-color: #FFFFFF;
+                position: absolute;
+                top: 130px;
+            }
+        </style>
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico">
     </head>
     <body>
-        <img src="images/background.png" alt="background">
+        <!-- <div class="image-container"> -->
+            <img src="images/background.png" alt="background" width="100%" class="background">
+            <div class="white-line"></div>
+        <!-- </div> -->
+        <img src="images/basketball.png" alt="basketball" class="basketball1">
+        <img src="images/basketball.png" alt="basketball" class="basketball2">
+        <img src="images/menuIcon.png" alt="menuIcon" style="width: 400px;height: 400px;" class="menuIcon">
+        <img src="images/trajectory.png" alt="trajectory" class="trajectory">
+    
+        <span class="banner1"><h1>HoopersPlanet</h1></span>
+        <hr class="hr">
+        <span class="text3">Bounce the ball!  ⬈</span>
     </body>
 </html>
