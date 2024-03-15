@@ -1,6 +1,26 @@
 body {
     margin: 0;
     font-family: 'Lexend';
+    background-image: url('https://s3-alpha-sig.figma.com/img/0ed9/5be0/1463fec4af4e20335b380c1d13d74c15?Expires=1710720000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=nfe5QpMwJTMspLd0ashwI96wiJiU77TE~TCS7YXfflJrF6JTkAvH59WLp-q0-33rV97Mmke16phGksQPR2~Eqoq2mifh09cjAG2VhRrtlu9sWXAZOev-Hlb4gxjRX959UC0n2npfRWJyQkg5ciQ1jFK87WcL-8u3QADMZwqLfKrE1pHsQNjUFGz1VJtMPCnJ~KP8aLYf2EAApBtBg03UnQr8Y5hx5iK1ZATAdM~paLtURX34b1Whz81MUiHN9DjDrQwqPs-ZuEfN3onsXPLqQM9XkGrqZSFjKMmHNDgB4DJqw5KpwvNfUVjMpS3xPq6-zxnNZXYX7MTCET35sga3hg__');
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Arial', sans-serif;
+    background-image: url('https://s3-alpha-sig.figma.com/img/0ed9/5be0/1463fec4af4e20335b380c1d13d74c15?Expires=1710720000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=nfe5QpMwJTMspLd0ashwI96wiJiU77TE~TCS7YXfflJrF6JTkAvH59WLp-q0-33rV97Mmke16phGksQPR2~Eqoq2mifh09cjAG2VhRrtlu9sWXAZOev-Hlb4gxjRX959UC0n2npfRWJyQkg5ciQ1jFK87WcL-8u3QADMZwqLfKrE1pHsQNjUFGz1VJtMPCnJ~KP8aLYf2EAApBtBg03UnQr8Y5hx5iK1ZATAdM~paLtURX34b1Whz81MUiHN9DjDrQwqPs-ZuEfN3onsXPLqQM9XkGrqZSFjKMmHNDgB4DJqw5KpwvNfUVjMpS3xPq6-zxnNZXYX7MTCET35sga3hg__');
+    width: 100%;
+    height: auto;
+    color: white;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: calc(2500px + 100vh); 
+    background-color: black;
+    
 }
 
 .menuIcon{
@@ -17,13 +37,7 @@ body {
     left: 37vw;
     top: 29vw;
 }
-/* .trajectory {
-    width: 535px;
-    height: auto;
-    position: absolute;
-    left: 665px;
-    top: 495px;
-} */
+
 .basketball2 {
     width: 6vw;
     height: auto;
@@ -75,7 +89,7 @@ body {
     position: absolute;
     font-size: 2.3vw;
     left: 50%;
-    top: 1900px;
+    top: 125vw;
     transform: translate(-50%, -50%);
 }
 
@@ -93,11 +107,5 @@ body {
     top: 6%;
 }
 
-.container {
-    font-size: 3vw; /* 假設父元素的字體大小為 16 像素 */
-  }
-  
-  .text {
-    font-size: 1.5em; /* 文字大小為其父元素字體大小的 1.5 倍，因此實際大小為 24 像素 */
-  }
+
   
